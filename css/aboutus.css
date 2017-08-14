@@ -1,0 +1,288 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+	font-family: 'Oswald', sans-serif !important;
+}
+a
+{
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+.oo {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.oo:before, .oo:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #FF0000;
+}
+
+.oo:before {
+  left: -2.5px;
+}
+.oo:after {
+  right: 2.5px;
+  background: #FF0000;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transform: rotate(135deg);
+}
+
+.oo:hover:before {
+  background: #FF0000;
+  left: 47%;
+  width: 6%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transform: rotate(135deg);
+}
+
+.oo:hover:after {
+  background: transparent;
+  left: 47%;
+  width: 6%;
+  transition: 0s;
+  transform: rotate(135deg);
+}
+
+
+#main
+{
+	background-image: url("../img/two1.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+#menu
+{
+    width: 97%;
+    height: 650px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    padding-top: 65px;
+}
+#menu>ul
+{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 60px;
+    vertical-align: middle;
+}
+#menu>ul>li
+{
+    list-style: none;
+    margin-top: 10px;
+}
+#menu>a>.fa
+{
+    font-size: 25px;
+}
+#menu>a>.fa-twitter
+{
+    position: absolute;
+    right: 20px;
+    top: 220px;
+}
+#menu>a>.fa-instagram
+{
+    position: absolute;
+    right: 20px;
+    top: 260px;
+}
+#menu>a>.fa-facebook
+{
+    position: absolute;
+    right: 25px;
+    top: 300px;
+}
+#menu>a>.fa-linkedin
+{
+    position: absolute;
+    right: 20px;
+    top: 340px;
+}
+#menu>a>.fa-snapchat-ghost
+{
+    position: absolute;
+    right: 20px;
+    top: 380px;
+}
+#logo-img
+{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	width: 220px;
+	height: 200px;
+}
+#menu-button
+{
+    background: transparent;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: none !important;
+    color: #FFF;
+}
+#menu-button>i
+{
+    font-size: 20px;
+}
+
+#main-text
+{
+	background: transparent;
+	color: #fff;
+	padding-left: 8vw;
+	position: relative;
+	top: 45vh;
+}
+#main-text>b>h1
+{
+	font-size: 8.5vw;
+	letter-spacing: 0px;
+	font-weight: bolder;
+}
+#main-text>span
+{
+	font-size: 3.2vw;
+	font-weight: lighter;
+	letter-spacing: 5px;
+}
+#down-arrow
+{
+	color: #FFF;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+#info
+{
+	padding: 6.5vw 8vw 6.5vw 8vw;
+}
+#info>p>span
+{
+	font-size: 2.8vw;
+	font-weight: lighter;
+	letter-spacing: 1.9px;
+}
+.add-top-mar
+{
+	display: inline-block;
+	margin-top: 30px;
+}
+#form-submit-div
+{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+input[type="text"] {
+    font-size: 20px;
+    font-weight: lighter;
+}
+textarea{
+    font-size: 200px;
+}
+input
+{
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#text-area-opinion
+{
+    background: transparent;
+   font-size: 22px;
+    font-weight: lighter;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#submit-button
+{
+    background-color: #FFF;
+    padding: 5px 30px 5px 30px;
+    color: #000;
+    font-size: 25px;
+    border-radius: 0;
+}
+#footer
+{
+    margin-top: 40px;
+}
+#hello
+{
+    font-size: 75px;
+    color: #FFF;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+#signup
+{
+    padding: 10px 250px 10px 250px;
+    background-color: #888;
+    border-color: #888;
+    border-radius: 0;
+    font-size: 22px;
+}
+#send
+{
+    padding: 10px 45px 10px 45px;
+    background-color: #000;
+    border-color: #000;
+    border-radius: 0;
+    font-size: 22px;
+}
+.col-md-12
+{
+    color: #888;
+    font-size: 18px;
+}
+.col-md-12>h1
+{
+    color: #FFF;
+}
+#opinion-text
+{
+    position: relative;
+    right: 255px;
+}
+#nav-items>a
+{
+    color: #000;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #000 !important;
+    font-size: 20px;
+}
+#copyright-text
+{
+    font-size: 20px;
+}
+#nav-items>a>i
+{
+    font-size: 26px;
+}
+.col-md-12>a:hover
+{
+    color: #77F !important;
+}
